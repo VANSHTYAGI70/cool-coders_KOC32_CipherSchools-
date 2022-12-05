@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<style>
+    body{
+        background: url('img/back.jpg');
+        font-family: 'Baloo Bhai', cursive;
+        
+    }
+    .container{
+        align-self: center;
+        border: 2px solid white;
+        margin: 106px 325px;
+        padding: 75px;
+        width: 38%;
+        border-radius: 28px;
+        height: 684px;
+        background-color: transparent;
+        color: white;
+    
+    }
+    .container button{
+        margin: 12px 12px;
+        background-color: green;
+        padding: 12px;
+        border-radius: 12%;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="action_page.php" class="form">
+            <p>Please fill in this form to continue.</p>
+            <hr>
+            <label for="name"><b>Name</b></label><br><br><input type="text" name="" placeholder="Enter your full name">
+            <br><br>
+            <label for="Age"><b>Date Of Birth</b></label><br><br><input type="date" name="" placeholder="Please enter your D.O.B">
+            <br><br>
+            <label for="Gender"><b>Gender</b></label><br><br><input type="radio" name="Gender" value="Male">Male
+            <label for="Gender"><b></b></label><br><br><input type="radio" name="Gender" value="Female">Female
+            <br><br>
+            <label for="contact"><b>Contact Number</b></label><br><br><input type="text" name="" placeholder="Enter your Phone number">
+            <br><br>
+            <label for="email"><b>Email</b></label><br><br><input type="text" name="" placeholder="Enter your email address">
+            <div>
+                <button class="btn"><a href="form-submit.html">Submit</a></button>
+            </div>
+            
+        </form>
+        
+
+    </div>
+</body>
+</html>
